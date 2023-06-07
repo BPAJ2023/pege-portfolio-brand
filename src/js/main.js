@@ -1,5 +1,6 @@
 // Import our custom CSS
 import '../scss/styles.scss'
 
-// Import all of Bootstrap's JS
-import 'bootstrap/dist/css/bootstrap.css';
+// Import all of MDBootstrap's JS
+import * as mdb from 'mdb-ui-kit';
+window.mdb = mdb 

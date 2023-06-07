@@ -13,7 +13,7 @@ module.exports = {
   },
   devServer: {
     static: path.resolve(__dirname, 'dist'),
-    port: 8080,
+    port: 3000,
     hot: true
   },
   plugins: [
@@ -38,6 +38,14 @@ module.exports = {
           },
           { loader: 'sass-loader' }
         ]
+      },
+      {
+        test: /\.(png|jpg|gif)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+          },
+        ],
       }
     ]
   }

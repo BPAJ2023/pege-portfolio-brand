@@ -1,1 +1,8 @@
-@import 'bootstrap/scss/bootstrap';
+@import '../../node_modules/mdb-ui-kit/src/scss/mdb.free.scss';
+
+@import 'reset';
+@import 'headers';
+@import 'form';
+@import 'carouselSecound';
+@import 'base';
+@import 'footer';
